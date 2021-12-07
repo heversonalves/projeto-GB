@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'Bebas Neue' ;
+    src: url('fonte/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rajdhani';
+    src: url('fonte/Rajdhani-Medium.ttf') format('truetype');
+}
+:root {
+    --cor0:#ffff;
+    --cor2:#7f7f7f;
+    --cor3:#58555a;
+    --cor4:#0000;
+
+    --fonte0:'Arial','Helvetica', 'sans-serif';
+    --fonte2: 'Rajdhani', sans-serif;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: var(--fonte0);
+    margin: auto;
+    
+}
+
+
+header nav.cabeçalho{
+    background-color: white;
+    padding: 15px;
+    text-align: right;
+
+   
+}
+
+
+header nav a.cabeçalho {
+    font-family: var(--fonte2);
+    padding: 10px;
+    margin-left: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+header nav  a.cabeçalho:hover {
+    background-color: black;
+    color: white;
+}
+
+main{
+    background-color: black;  
+    padding-bottom: 5px;
+}
+
+div#imagem{
+    
+    font-size: 1.5em;
+    padding-top: 10%;
+    background-image: url('imagens/montanha.jpg'); 
+    text-align: center;
+    height: 190px;
+}
+
+
+main nav{
+    text-align: center;
+}
+div#q1{
+    background-color: black;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.quadrado{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+div.h2{
+    background-color: white;
+}
+
+main h2{
+    color: black;
+    font-family: var(--fonte2);
+    text-align: center;
+    padding: 30px 0px;
+}
+
+a.serviço{
+    font-family: var(--fonte2);
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+a.serviço:hover{
+    background-color: white;
+    color: black;
+}
+
+main section{
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 60%;
+    max-height: 400px;
+    min-height: 180px;
+    
+}
+
+main section h3{ 
+    font-family: var(--fonte2);
+    margin: 20px 0px;
+    text-align: left;
+}
+main section p{  
+    
+    font-family: var(--fonte2);
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
+footer {
+    
+    height: 100px;
+    background-color: white;
+    position: relative;
+    color: black;
+    padding-top: 50px;
+}
+
+div.footer{
+    display: inline-block;
+}
+footer div p {
+    font-family: var(--fonte2);
+    text-align: justify;
+    text-indent: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+p.copy{
+    text-align: center;
+    font-style: italic;
+    font-size: 13px;
+    padding-top: 10px;
+}
