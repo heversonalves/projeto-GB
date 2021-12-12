@@ -10,7 +10,7 @@
     src: url('fonte/Rajdhani-Medium.ttf') format('truetype');
 }
 :root {
-    --cor0:#002D5C;
+    --cor0:#032344;
     --cor2:#025797;
     --cor3:#0968AD;
     --cor4:#248BDA;
@@ -47,20 +47,84 @@ a.cabeçalho{
     border: solid 1px var(--cor2);
 }
 
-#imagem{
-    color: var(--cor2);
-    background-image: url('');
-    background-repeat: repeat;
-    text-align: center;
-    padding: 20px 0px ;
+a.cabeçalho:hover{
+    border: none;
 }
-#fundo-branco{
-    background-color: var(--cor2);
+
+#principal{
+    color: var(--cor2);
+    background-image: url('imagens/imagem-fundo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: right;
+}
+
+h1{
+    padding: 30vh 10vw 10vh 0px;
+    font-size: 3em;
+    color: white;
+}
+
+#sobre{
+    background-color: rgba(0, 0, 0, 0.378);
+    border: solid 2px var(--cor2);
+    border-radius: 30px;
     color: white;
     width: 30vw;
-    text-indent: 10px;
+    text-indent: 15px;
     text-align: justify;
     padding: 20px 20px 20px 10px;
     margin-left:10px;
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+article{
+    display: inline;
+    background-color: rgba(0, 0, 0, 0.083);
+    max-width: 1000px;
+}
+
+#obra{
+    
+    width: 30vw;
+    
+    margin-left: 300px;
+    color: var(--cor2);
+    padding: 50px 10px;
+    border: solid 1px  var(--cor2);
+    border-radius:  30px;
+    text-align: justify;
+    text-indent: 15px;
+}
+#controle{
+    width: 30vw;
+    margin-left: 300px;
+    color: var(--cor0);
+    padding: 50px 10px;
+    border: solid 1px  var(--cor0);
+    border-radius:  30px;
+    text-align: justify;
+    text-indent: 15px;
+    
+}
+#automação{
+    width: 30vw;
+    margin-left: 300px;
+    color: var(--cor0);
+    padding: 50px 10px;
+    border: solid 1px  var(--cor0);
+    border-radius:  30px;
+    text-align: justify;
+    text-indent: 15px;
+}
+h3{
+    border: solid 1px var(--cor0);
+    border-radius: 20px;
+    text-align: center;
+    color: var(--cor2);
+    padding: 10px;
+    margin:20px 10px 0px;
+    width: 270px;
+    
 }
