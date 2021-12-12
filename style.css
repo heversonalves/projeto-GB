@@ -61,7 +61,7 @@ a.cabeçalho:hover{
 }
 
 h1{
-    padding: 30vh 10vw 10vh 0px;
+    padding-bottom: 20px;
     font-size: 3em;
     color: white;
 }
@@ -74,57 +74,10 @@ h1{
     width: 30vw;
     text-indent: 15px;
     text-align: justify;
-    padding: 20px 20px 20px 10px;
-    margin-left:10px;
-    margin-bottom: 20px;
+    padding: 10vh;
+    margin: 20px 0px 20px 10px;
 }
 
 article{
-    display: inline;
-    background-color: rgba(0, 0, 0, 0.083);
-    max-width: 1000px;
-}
-
-#obra{
-    
-    width: 30vw;
-    
-    margin-left: 300px;
-    color: var(--cor2);
-    padding: 50px 10px;
-    border: solid 1px  var(--cor2);
-    border-radius:  30px;
-    text-align: justify;
-    text-indent: 15px;
-}
-#controle{
-    width: 30vw;
-    margin-left: 300px;
-    color: var(--cor0);
-    padding: 50px 10px;
-    border: solid 1px  var(--cor0);
-    border-radius:  30px;
-    text-align: justify;
-    text-indent: 15px;
-    
-}
-#automação{
-    width: 30vw;
-    margin-left: 300px;
-    color: var(--cor0);
-    padding: 50px 10px;
-    border: solid 1px  var(--cor0);
-    border-radius:  30px;
-    text-align: justify;
-    text-indent: 15px;
-}
-h3{
-    border: solid 1px var(--cor0);
-    border-radius: 20px;
-    text-align: center;
-    color: var(--cor2);
-    padding: 10px;
-    margin:20px 10px 0px;
-    width: 270px;
-    
+  
 }
