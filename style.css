@@ -67,6 +67,7 @@ div#imagem{
     background-position: center center;
     text-align: center;
     height: 190px;
+    color: white;
 }
 
 
@@ -111,8 +112,10 @@ main section{
     color: black;
     padding: 20px;
     width: 60%;
+    margin-left: 10px;
     max-height: 400px;
     min-height: 180px;
+    
     
 }
 
