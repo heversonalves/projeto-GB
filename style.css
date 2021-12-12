@@ -24,9 +24,43 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte0);
-    margin: auto;
+   
 }
 
 header{
+    background-image: url('imagens/fundo-cabeçalho.png');
+    background-position: left;
+}
+
+header > nav{
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+a.cabeçalho{
+    text-decoration: none;
+    color:var(--cor2);
+    font-weight: bold;
+    margin-right: 40px;
+    padding:10px;
+    border-radius: 20px;
+    border: solid 1px var(--cor2);
+}
+
+#imagem{
+    color: var(--cor2);
     background-image: url('');
+    background-repeat: repeat;
+    text-align: center;
+    padding: 20px 0px ;
+}
+#fundo-branco{
+    background-color: var(--cor2);
+    color: white;
+    width: 30vw;
+    text-indent: 10px;
+    text-align: justify;
+    padding: 20px 20px 20px 10px;
+    margin-left:10px;
+    margin-top: 20px;
 }
