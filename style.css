@@ -79,7 +79,7 @@ h1{
 }
 
 main{
-    background-image: url('imagens/150.jpg'); 
+    background-image: url('imagens/fundo-main.jpg'); 
     background-size: cover;
     background-attachment: fixed;
     max-width: 100vw;
