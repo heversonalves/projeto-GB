@@ -23,7 +23,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte0);
+    font-family: var(--fonte2);
    
 }
 
@@ -84,9 +84,7 @@ main{
     
 }
 #container{
-    display: flex;
-    justify-content: right;
-    justify-content: space-between;
+    
 }
 .serviço{
     background-color: rgba(0, 0, 0, 0.268);
