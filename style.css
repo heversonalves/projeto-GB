@@ -29,8 +29,9 @@
 }
 
 header{
-    background-image: url('imagens/fundo-cabeçalho.png');
-    background-position: left;
+    background-image: url('imagens/fundo-main.jpg');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header > nav{
@@ -75,7 +76,7 @@ h1{
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
-    margin: 20px 0px 20px 10px;
+    margin: 20px 0px 0px 10px;
 }
 
 main{
@@ -89,21 +90,19 @@ main{
 
 .serviço{
     background-color: rgba(0, 0, 0, 0.268);
-    border: solid 2px var(--cor2);
-    border-radius: 30px;
     color: white;
-    width: 30vw;
+    width: 40vw;
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
-    margin: 0px 0px 20px 5px;
+    margin: 0px 0px 0px 10px;
 }
 h3{
     padding-bottom: 20px;
 }
 footer{
     columns: 2;
-    background-color: rgba(0, 0, 0, 0.378);
-    border: solid 1px var(--cor5);
+    background-color: rgba(0, 0, 0, 0.268);
+    margin-left: 10px;
     
 }
