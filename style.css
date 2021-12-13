@@ -69,11 +69,8 @@ h1{
 
 #sobre{
     background-color: rgba(0, 0, 0, 0.378);
-    border: solid 2px var(--cor2);
-    border-radius: 30px;
     color: white;
-    max-height: 60vw;
-    min-width: 40vw;
+    width: 40vw;
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
