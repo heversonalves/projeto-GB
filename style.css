@@ -38,22 +38,21 @@ header{
 header > nav{
     display:flex;
     justify-content: right;
+    
    
 }
 
 a.cabeçalho{
+    background-color: rgba(0, 0, 0, 0.378);
     text-decoration: none;
-    color:var(--cor2);
-    font-weight: bold;
+    color:white;
     margin-right: 40px;
-    padding:10px;
+    padding:5px;
     border-radius: 20px;
-    border: solid 1px var(--cor2);
+    border: solid 1px ;
 }
 
-a.cabeçalho:hover{
-    border: none;
-}
+
 
 #principal{
     color: var(--cor2);
@@ -76,8 +75,7 @@ h1{
     width: 40vw;
     text-indent: 15px;
     text-align: justify;
-    padding: 10vh;
-    margin: 0px 0px 0px 10px;
+    padding: 10vh; 
 }
 
 main{
@@ -96,14 +94,17 @@ main{
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
-    margin: 0px 0px 0px 10px;
+   
 }
 h3{
     padding-bottom: 20px;
 }
 footer{
-    columns: 2;
-    background-color: rgba(0, 0, 0, 0.268);
-    margin-left: 10px;
     
+    background-color: rgba(0, 0, 0, 0.268);
+    padding-left: 20px;
+}
+p.copy{
+    display: flex;
+    justify-content: center;
 }
