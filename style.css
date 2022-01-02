@@ -32,12 +32,13 @@ header{
     background-image: url('imagens/fundo-main.jpg');
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 20px;
 }
 
 header > nav{
     display:flex;
     justify-content: right;
-    margin-bottom: 20px;
+   
 }
 
 a.cabeçalho{
@@ -76,7 +77,7 @@ h1{
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
-    margin: 20px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
 }
 
 main{
