@@ -86,18 +86,27 @@ main{
     min-width: 280px;
     
 }
-
-.serviço{
-    background-color: rgba(0, 0, 0, 0.268);
+#container{
     color: white;
-    width: 40vw;
-    text-indent: 15px;
-    text-align: justify;
-    padding: 10vh;
-   
+    background-color: rgba(0, 0, 0, 0.378);
 }
-h3{
-    padding-bottom: 20px;
+h2 {
+    padding: 20px;
+}   
+#after::after{
+    content:'→';
+    padding-left: 10px;
+}
+.serviço{
+    background-color: rgba(0, 0, 0, 0.378);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px ;
+}
+
+#seg::before{
+    content: url('');
 }
 footer{
     
