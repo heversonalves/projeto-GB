@@ -97,6 +97,7 @@ h1{
 }
 
 main{
+    
     background-image: url('imagens/fundo-main.jpg'); 
     background-size: cover;
     background-attachment: fixed;
@@ -109,7 +110,9 @@ main{
     background-color: rgba(0, 0, 0, 0.378);
 }
 h2 {
-    padding: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: rgba(0, 0, 0, 0.378);
+    text-align: center;
 }   
 
 
@@ -129,6 +132,16 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.imageflex{
+    background-color: rgba(0, 0, 0, 0.378);
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
 }
 
 footer{
