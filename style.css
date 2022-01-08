@@ -28,7 +28,7 @@
    
 }
 
-img{
+img#logo{
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
 }
@@ -134,22 +134,64 @@ a:hover{
     text-decoration: underline;
 }
 
+.tittleflex{
+    padding-bottom: 60px;
+}
+
 .imageflex{
     background-color: rgba(0, 0, 0, 0.378);
+    padding: 0px 0px 40px 0px;
 }
 
 ul{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+   
+}
+
+.input{
+    background-color: rgba(0, 0, 0, 0.378);
+    padding: 50px 10px;
+}
+
+h3{
+    padding-bottom: 40px; 
+    padding-left: 10px;
+}
+
+#txt1{
+    background-color: rgba(0, 0, 0, 0.378);
+    border: 1px solid white;
+    padding: 10px ;
+    max-width: 80vw;
+    min-width: 50vw;
+    margin-bottom: 20px;
+}
+
+#em1{
+    background-color: rgba(0, 0, 0, 0.378);
+    border: 1px solid white;
+    padding: 10px ;
+    max-width: 80vw;
+    min-width: 50vw;
+    margin-bottom: 20px;
+}
+
+#button{
+    padding: 20px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background-color: var(--cor2);
+    color: white;
+}
+#button:hover{
+    text-decoration: underline;
 }
 
 footer{
-    
+    text-align: justify;
     background-color: rgba(0, 0, 0, 0.268);
     padding-left: 20px;
 }
-p.copy{
-    display: flex;
-    justify-content: center;
-}
+
