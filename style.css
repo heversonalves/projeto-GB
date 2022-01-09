@@ -135,19 +135,45 @@ a:hover{
     text-decoration: underline;
 }
 
-.tittleflex{
+.tittlecontent{
     padding-bottom: 60px;
 }
 
-.imageflex{
-    background-color: rgba(0, 0, 0, 0.378);
-    padding: 0px 0px 40px 0px;
+.content{
+   
+    padding: 0px;
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    margin: auto;
 }
 
+.slides{
+   
+}
 
+.s1{
 
+}
 
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
 
+.bar{
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 .input{
     background-color: rgba(0, 0, 0, 0.378);
