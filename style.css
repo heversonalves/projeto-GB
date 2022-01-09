@@ -27,6 +27,10 @@
     
 }
 
+body{
+    height: 100vh;
+    width: 100vw;
+}
 
 img#logo{
     transform: translateY(0px);
@@ -140,14 +144,15 @@ a:hover{
 }
 
 .content{
-   
+    margin: auto;
     padding: 0px;
     height: 520px;
-    width: 935px;
+    max-width: 900px;
+    min-width: 280px;
     border-radius: 20px;
     overflow: hidden;
-    position: absolute;
-    margin: auto;
+    position: relative;
+   
 }
 
 .slides{
@@ -175,48 +180,41 @@ a:hover{
     cursor: pointer;
 }
 
-.input{
-    background-color: rgba(0, 0, 0, 0.378);
-    padding: 50px 10px;
+.bar:hover{
+    background-color: white;
+    transition: 0.4s;
 }
 
-h3{
-    padding-bottom: 40px; 
-    padding-left: 10px;
+input{
+    display: none;
 }
 
-#txt1{
-    background-color: rgba(0, 0, 0, 0.378);
-    border: 1px solid white;
-    padding: 10px ;
-    max-width: 80vw;
-    min-width: 50vw;
-    margin-bottom: 20px;
+.slides{
+    display: flex;
+    width: 500%;
 }
 
-#em1{
-    background-color: rgba(0, 0, 0, 0.378);
-    border: 1px solid white;
-    padding: 10px ;
-    max-width: 80vw;
-    min-width: 50vw;
-    margin-bottom: 20px;
+.slide{
+    width: 20%;
+    transition: .6s;
+}
+.slide img{
+    width: 100%;
+    height: 100%;
 }
 
-#button{
-    padding: 20px;
-    border-radius: 30px;
-    border: 1px solid white;
-    background-color: var(--cor2);
-    color: white;
-}
-#button:hover{
-    text-decoration: underline;
+#slide1:checked ~ .s1{
+    margin-left: 0px;
 }
 
-footer{
-    text-align: justify;
-    background-color: rgba(0, 0, 0, 0.268);
-    padding-left: 20px;
+#slide2:checked ~ .s1{
+    margin-left: -35%;
 }
 
+#slide3:checked ~ .s1{
+    margin-left: -110%;
+}
+
+#slide4:checked ~ .s1{
+    margin-left: -300%;
+}
