@@ -9,14 +9,21 @@
     font-family: 'Rajdhani';
     src: url('fonte/Rajdhani-Medium.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'CreatoDisplay-Light';
+    src: url('fonte/CreatoDisplay-Light.otf') format('opentype');
+}
+
 :root {
     --cor0:#032344;
     --cor2:#025797;
     --cor3:#0968AD;
-    --cor4:#248BDA;
+    --cor4:#60ACB3;
     --cor5:#59A0D4;
 
-    --fonte0:'Arial','Helvetica', 'sans-serif';
+    --fonte0:'Arial','Helvetica', sans-serif;
+    --fonte1:'CreatoDisplay-Light',sans-serif;
     --fonte2: 'Rajdhani', sans-serif;
 
 }
@@ -35,7 +42,7 @@ body{
    
 }
 
-img#logo{
+img.logo{
     transform: translateY(0px);
     animation: float 5s ease-in-out infinite;
 }
@@ -83,7 +90,7 @@ main{
     
 }
 
-#principal{
+section.principal{
     color: var(--cor2);
     background-image: url('imagens/imagem-fundo.jpg');
     background-repeat: no-repeat;
@@ -98,7 +105,7 @@ h1{
     color: white;
 }
 
-#sobre{
+section.sobre{
     background-color: rgba(0, 0, 0, 0.378);
     color: white;
     width: 40vw;
@@ -108,14 +115,10 @@ h1{
      
 }
 
-
-#container{
-    color: white;
-    
-}
-h2 {
-    padding: 100px 0px 40px 0px ;
+h2.title-serviço {
+    padding: 90px 0px 40px 0px ;
     text-align: center;
+    color: white;
 }   
 
 article{
@@ -124,7 +127,7 @@ article{
     border-radius: 20px;
 }
 
-.serviço{
+section.nav-serviço{
    
     display:flex;
     justify-content: space-around;
@@ -146,9 +149,8 @@ a:hover{
 }
 
 
-.content{
+section.content{
     margin: auto;
-    padding: 0px;
     height: 520px;
     max-width: 900px;
     min-width: 280px;
@@ -158,7 +160,7 @@ a:hover{
    
 }
 
-.navigation{
+section.navigation{
     position: absolute;
     bottom: 20px;
     left: 50%;
@@ -187,14 +189,17 @@ input{
 .slides{
     display: flex;
     width: 500%;
+  
 }
 
 .slide{
-    width: 20%;
+    max-width: 20%;
+    min-width: 280px;
     transition: .6s;
 }
 .slide img{
-    width: 100%;
+    max-width: 100%;
+    min-width: 250px;
     height: 100%;
 }
 
@@ -204,7 +209,7 @@ input{
 }
 
 #slide2:checked ~ .s1{
-    margin-left: -35%;
+    margin-left: -33.3%;
     transition: .6s;
 }
 
@@ -218,28 +223,45 @@ input{
     transition: .6s;
 }
 
-.formulario{
-    
-    padding: 20px;
+aside.aside{
+    background-color: rgba(0, 0, 0, 0.378);
+    color: white;
+    padding: 30px 20px;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 20px;
-    height: 40vh;
-    background-color: rgba(0, 0, 0, 0.378);
+    text-align: justify;
 }
-
-form{
-    position: absolute;
+ul > li{
+    font-weight: bold;
+  list-style-position: inside;
+  padding:10px 0px;
 }
-
 
 footer{
     background-color: rgba(0, 0, 0, 0.378);
+}
+
+.rede-social{
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+}
+
+
+footer > p{
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    height: 10vh;
-    
 }
-
+section.footer{
+    margin: auto;
+    width: 400px;
+}
+.footer > p{
+    padding-bottom: 3px;
+}
