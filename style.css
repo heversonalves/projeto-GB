@@ -31,7 +31,7 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--fonte2);
-    
+
     
 }
 
@@ -39,6 +39,8 @@ body{
     background-image: url('imagens/fundo-main.jpg');
     background-size: cover;
     background-attachment: fixed;
+    
+
     
     
    
@@ -87,9 +89,10 @@ a.cabeçalho{
 
 main{
     background-color: rgba(0, 0, 0, 0.378);
-    max-width: 100vw;
+    max-width:100vw;
     min-width: 280px;
     padding-bottom: 30px;
+    
     
 }
 
@@ -227,6 +230,7 @@ input{
     transition: .6s;
 }
 
+
 aside.aside{
     background-color: rgba(0, 0, 0, 0.378);
     color: white;
@@ -236,11 +240,18 @@ aside.aside{
     margin-right: 20px;
     border-radius: 20px;
     text-align: justify;
+    text-indent: 20px;
 }
 ul > li{
     font-weight: bold;
-  list-style-position: inside;
-  padding:10px 0px;
+    list-style-position: inside;
+    padding:10px 0px;
+   
+}
+
+h4{
+    padding: 20px 0px;
+    font-weight: normal;
 }
 
 footer{
