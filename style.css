@@ -97,12 +97,14 @@ main{
 }
 
 section.principal{
+    height: 65vh;
     color: var(--cor2);
     background-image: url('imagens/imagem-fundo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     text-align: right;
+    
 }
 
 h1{
@@ -114,7 +116,8 @@ h1{
 section.sobre{
     background-color: rgba(0, 0, 0, 0.378);
     color: white;
-    width: 50vw;
+    width: 40vw;
+    height: 45vh;
     text-indent: 15px;
     text-align: justify;
     padding: 10vh;
