@@ -36,6 +36,7 @@
     margin: 0px;
     padding: 0px;
     font-family: var(--Rajdhani);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
 }
 
 
@@ -46,8 +47,8 @@ header{
     background-position: center bottom;
     padding-top: 10px;
     color: white;
-    min-height: 50vh;
-    max-height: 80vh;
+    max-height: 100vh;
+    min-height: 60vh;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.631);
    
 }
@@ -90,7 +91,6 @@ input.sign{
     border: solid 2px white;
     padding: 5px;
     cursor: pointer;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467) ;
    
 }
@@ -104,7 +104,6 @@ input.login{
     padding: 5px;
     margin-left: 10px;
     cursor: pointer;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467) ;
 }
 .login:hover, .sign:hover, .nav-header:hover{
@@ -126,6 +125,7 @@ h2.tittle-container-header{
     font-size: 2.5em;
 }
 p.info-container-header{
+    color: white;
     font-size: 0.9em;
     text-align: justify;
     text-indent: 20px;
@@ -147,7 +147,58 @@ input.input-sean-more{
     background-color: transparent;
     color: white;
     cursor: pointer;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467) ;
 }
 
+aside{
+    background-color: rgba(0, 0, 0, 0.631);
+    margin: 5px;
+    
+    padding: 10px;
+    color: white;
+}
+input#name{
+    max-width: 100%;
+    min-width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px white;
+  
+}
+input#email{
+    max-width: 100%;
+    min-width: 80%;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px white;
+    color: white;
+}
+input.input-cadastrar{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+}
+input::placeholder{
+    color: white;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.631);
+
+}
+
+section.nav-footer{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.img-nav-footer{
+    padding-right: 10px;
+}
