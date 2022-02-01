@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-    font-family:'Bebas Neue' ;
-    src: url('fonte/BebasNeue-Regular.ttf') format('truetype');
-}
 
 @font-face {
     font-family: 'Rajdhani';
@@ -14,6 +10,12 @@
     font-family: 'CreatoDisplay-Light';
     src: url('fonte/CreatoDisplay-Light.otf') format('opentype');
 }
+@font-face {
+    font-family: 'voxbox';
+    src: url('fonte/voxbox/voxbox.ttf') format('truetype');
+}
+
+
 
 :root {
     --cor0:#032344;
@@ -22,15 +24,18 @@
     --cor4:#60ACB3;
     --cor5:#59A0D4;
 
-    --fonte0:'Arial','Helvetica', sans-serif;
+   
     --fonte1:'CreatoDisplay-Light',sans-serif;
-    --fonte2: 'Rajdhani', sans-serif;
+    --voxbox:'voxbox','san-serif';
+    --Rajdhani:'Rajdhani','san-serif';
+
+    
 
 }
 *{
     margin: 0px;
     padding: 0px;
-    font-family: var(--fonte2);  
+    font-family: var(--Rajdhani);
 }
 
 
@@ -41,14 +46,16 @@ header{
     background-position: center bottom;
     padding-top: 10px;
     color: white;
-    height: 50vh;
+    min-height: 50vh;
+    max-height: 80vh;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.631);
    
 }
 
 h1.tittle-header{
    
-    padding-left: 10px;
+    padding-left: 30px;
+    padding-bottom: 10px;
     font-family: var(--voxbox);
     
 }
@@ -57,7 +64,7 @@ section.flex-header{
     display:flex;
     justify-content: right;
     padding-right: 20px;
-    font-family: var(--Rajdhani);
+    
    
 }
 
@@ -123,8 +130,9 @@ p.info-container-header{
     text-align: justify;
     text-indent: 20px;
     max-width: 600px;
-    min-width: 260px;
+    min-width: 200px;
     padding-top: 30px;
+    padding-right: 10px;
 }
 
 section.sean-more{
