@@ -115,7 +115,7 @@ section.container-header{
     position: relative;
     font-family: var(--Rajdhani);
 }
-section.chilld-header{
+section.chilld-container-header{
     position: absolute;
     top: 80px;
     left: 5%;
@@ -184,9 +184,11 @@ input.input-cadastrar{
     border: solid 1px white;
     color: white;
     background-color: transparent;
+    cursor: pointer;
 }
 input::placeholder{
     color: white;
+   
 }
 
 footer{
@@ -201,4 +203,6 @@ section.nav-footer{
 }
 .img-nav-footer{
     padding-right: 10px;
+    max-width: 50%;
+    min-width:none;
 }
