@@ -205,7 +205,7 @@ main{
     text-align: center;
     color: #1a2666;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.802);
-    max-height: 200px;
+    max-height: 600px;
     min-height: 200px;
     width: 250px;
     border-radius: 20px;
