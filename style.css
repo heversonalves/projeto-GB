@@ -20,30 +20,30 @@
 
     --voxbox:'voxbox','san-serif';
     --morden:'ModernSans';
+
+    --background: rgba(0, 0, 0, 0.775);
 }
 *{
     margin: 0px;
     padding: 0px;
     font-family: var(--morden);
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.467);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.666);
     
 }
 
 body{
-    background-color: rgba(0, 0, 0, 0.493);
+    background-image: url('imagens/fundo.png');
 }
 
 header{
-    background-image: url('imagens/background-header.jpg');
-    background-size: cover;
-    background-attachment:fixed ;
+    background-color: var(--background);
     color: white;
     border-radius: 20px;
-    border: 2px solid #1a2666;
+    border: 2px solid transparent;
     padding-bottom: 10%;
     padding-top: 2%;
     margin: 0px 5px;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.802);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.919);
     
 }
 
@@ -146,12 +146,12 @@ input.input-sean-more{
 }
 
 aside{
-    background-color: white;
-    border: solid 2px #1a2666;
+    background-color: var(--background);
+    border: solid 2px transparent;
     border-radius: 20px;
     margin: 5px;
     padding: 10px;
-    color: #1a2666;
+    color: white;
 }
 input#name{
     max-width: 100%;
@@ -160,7 +160,7 @@ input#name{
     margin-bottom: 20px;
     padding: 10px;
     background-color: transparent;
-    border: solid 1px #1a2666;
+    border: solid 1px white;
     border-radius: 20px;
   
 }
@@ -169,9 +169,9 @@ input#email{
     min-width: 80%;
     padding: 10px;
     background-color: transparent;
-    border: solid 1px #1a2666;
+    border: solid 1px white;
     border-radius: 20px;
-    color: #1a2666;
+    color: white;
 }
 input.input-cadastrar{
     border-radius: 20px;
@@ -179,22 +179,22 @@ input.input-cadastrar{
     padding: 10px;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: solid 1px #1a2666;
-    color: #1a2666;
+    border: solid 1px white;
+    color: white;
     background-color: transparent;
     cursor: pointer;
 }
 input::placeholder{
-    color: #1a2666;
+    color: white;
    
 }
 
 main{
-    background-color: white;
+    background-color: var(--background);
     margin: 5px;
     padding: 10px;
     border-radius: 20px;
-    border: solid 2px #1a2666;
+    border: solid 2px transparent;
 }
 
 .container-main{
@@ -205,7 +205,7 @@ main{
 }
 .chilld-container-main{
     text-align: center;
-    color: #1a2666;
+    color: white;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.802);
     max-height: 600px;
     min-height: 200px;
