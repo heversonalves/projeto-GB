@@ -33,13 +33,13 @@
 
 body{
     background-image: url('imagens/fundo.png');
+    background-attachment: fixed;
 }
 
 header{
     background-color: var(--background);
     color: white;
     border-radius: 20px;
-    border: 2px solid transparent;
     padding-bottom: 10%;
     padding-top: 2%;
     margin: 0px 5px;
@@ -48,7 +48,7 @@ header{
 }
 
 h1.tittle-header{
-    padding-left: 30px;
+    padding-left: 20px;
     padding-bottom: 10px;
     font-family: var(--voxbox);
     
@@ -136,7 +136,7 @@ section.sean-more{
   
 }
 input.input-sean-more{
-     background-color: transparent;
+    background-color: transparent;
     padding: 10px;
     border-radius: 20px;
     border: solid 1px white;
@@ -145,56 +145,11 @@ input.input-sean-more{
     
 }
 
-aside{
-    background-color: var(--background);
-    border: solid 2px transparent;
-    border-radius: 20px;
-    margin: 5px;
-    padding: 10px;
-    color: white;
-}
-input#name{
-    max-width: 100%;
-    min-width: 80%;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: transparent;
-    border: solid 1px white;
-    border-radius: 20px;
-  
-}
-input#email{
-    max-width: 100%;
-    min-width: 80%;
-    padding: 10px;
-    background-color: transparent;
-    border: solid 1px white;
-    border-radius: 20px;
-    color: white;
-}
-input.input-cadastrar{
-    border-radius: 20px;
-    border: none;
-    padding: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: solid 1px white;
-    color: white;
-    background-color: transparent;
-    cursor: pointer;
-}
-input::placeholder{
-    color: white;
-   
-}
-
 main{
     background-color: var(--background);
     margin: 5px;
     padding: 10px;
     border-radius: 20px;
-    border: solid 2px transparent;
 }
 
 .container-main{
@@ -206,7 +161,7 @@ main{
 .chilld-container-main{
     text-align: center;
     color: white;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.802);
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.666);
     max-height: 600px;
     min-height: 200px;
     width: 250px;
@@ -244,17 +199,54 @@ main{
     
 }
 
+aside{
+    background-color: var(--background);
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px;
+    color: white;
+}
+
+aside > h2{
+    padding-bottom: 20px;
+}
+
+.aside{
+    max-width: 100%;
+    min-width: 80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: transparent;
+    border: solid 1px white;
+    border-radius: 20px;
+  
+}
+
+input.input-cadastrar{
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    cursor: pointer;
+}
+input::placeholder{
+    color: white;
+   
+}
 
 footer{
-    background-color: rgba(0, 0, 0, 0.631);
+    background-color:  var(--background);
     color: white;
 
 }
 
 section.nav-footer{
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
+   display: flex;
+   padding: 10px 0px 5px 10px;
 }
 .img-nav-footer{
     padding-right: 10px;
