@@ -34,6 +34,7 @@ body{
 }
 
 header{
+    background-image: url('');
     background-color: white;
     color: #1a2666;
     border-radius: 20px;
@@ -219,7 +220,7 @@ main{
     }
     .chilld-container-main{
         margin-top: 20px;
-        width: 40%;
+        width: 100%;
 
     }
     .tittle-chilld-container-main{
