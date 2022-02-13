@@ -21,7 +21,7 @@
     --voxbox:'voxbox','san-serif';
     --morden:'ModernSans';
 
-    --background: rgba(0, 0, 0, 0.775);
+    --background: rgba(0, 0, 0, 0.556);
 }
 *{
     margin: 0px;
@@ -32,15 +32,16 @@
 }
 
 body{
-    background-image: url('imagens/fundo.png');
+    background-image: url('imagens/fundo3.png');
     background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header{
-    background-image: url('imagens/fundo3.png');
+    background-color: var(--background);
     background-size: cover;
-    background-color: white;
-    color: #1a2666;
+    color: white;
     border-radius: 20px;
     padding-bottom: 10%;
     padding-top: 2%;
@@ -69,7 +70,7 @@ nav.nav-head{
 
 a.nav-header{
     text-decoration: none;
-    color: #1a2666;
+    color: white;
     padding-right: 15px;
 }
 
@@ -84,9 +85,9 @@ nav.form{
 
 input.sign{
     background-color: transparent;
-    color: #1a2666;
+    color: white;
     border-radius: 15px;
-    border: solid 1px #1a2666;
+    border: solid 1px white;
     padding: 5px;
     cursor: pointer;
     
@@ -95,7 +96,7 @@ input.sign{
 input.login{
     background-color: transparent;
     border: none;
-    color: #1a2666;
+    color: white;
     border-radius: 15px;
     padding: 5px;
     margin-left: 10px;
@@ -137,8 +138,8 @@ input.input-sean-more{
     background-color: transparent;
     padding: 10px;
     border-radius: 20px;
-    border: solid 1px #1a2666;
-    color: #1a2666;
+    border: solid 1px white;
+    color: white;
     cursor: pointer;
     
 }
