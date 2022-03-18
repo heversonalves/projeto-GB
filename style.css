@@ -40,7 +40,7 @@ header{
 .menu{
     width: 25%;
 
-    background-color: #032344;
+    background-color: #010A26;
     border-radius: 20px 0 0 20px;
 
     padding-bottom: 15px;
@@ -52,7 +52,7 @@ header{
 .contentHeader{
     width: 80%;
 
-    background-color:  #025797;
+    background-color:  #011640;
     border-radius: 0 20px 20px 0;
 }
 
@@ -86,14 +86,14 @@ li:hover{
     padding: 10px;
 
     border-radius: 10px;
-    background-image: linear-gradient(to right, #501b6b, #3e4a73,#2d867c);
+    background-image: linear-gradient(to right, #034AA6, #04B2D9,#05F2F2);
 
     text-align: center;
 }
 .InputForm{
-    background-color: #0968AD;
+    background-color: hsla(225, 95%, 8%, 0.802);
     color: white;
-    border: none;
+    border:1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
     padding: 8px;
@@ -105,5 +105,10 @@ li:hover{
     border: 1px solid #fff;
     border-radius: 10px;
     cursor: pointer;
-    padding: 7px;
+    padding: 8px;
+}
+
+lord-icon{
+    width: 40px;
+    height: 50px;
 }
