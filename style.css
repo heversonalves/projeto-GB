@@ -138,5 +138,18 @@ main{
 }
 
 .contact{
-    background-image: url('imagens/');
+    background-image: url('imagens/fundo-contact.jpg');
+    background-size: cover;
+
+    padding: 3%;
+    
+}
+.inputcontact{
+    padding: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+
+    border-radius: 20px;
+    border: 1px solid white;
+    background-color: transparent;
 }
