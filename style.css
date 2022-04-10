@@ -26,45 +26,45 @@
     
 }
 
-*{
+*{  
     margin: 0px;
     padding: 0px; 
 }
 
 header{
-    background-color: gold;
-}
-
-.navigation-header{
-    background-color: black;
-    color: white;
-}
-
-.link-navigation-header{
-    text-decoration: none;
-    color: white;
-    cursor: pointer;
-}
-.container-header{
-    display: flex;
-    justify-content: space-between;
-}
-.content-header{
-    position: relative;
-}
-.img-moni-security{
-    width: 40%;
-    top: 10%;
-}
-.title-content-header{
-    font-size: 2em;
-    margin-bottom: 10%;
-}
-.link-sean-more-content-header{
-    text-decoration: none;
-    color: white;
-    padding: 10px;
+    background-color: gray;
+    height: 350px;
     
-    background-color: black;
-    border-radius: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 1%; 
+}
+div{
+    max-width: 80%;
+    margin: auto;
+}
+
+.navigation{
+    
+    text-align: right;
+    padding: 15px;
+    
+}
+.link-navigation{
+    font-family: var(--main-source);
+    margin-left: 2%;
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    background-color: #ffd900;
+    box-shadow: 1px 1px 20px 3px rgba(0, 0, 0, 0.309);
+    border-radius: 10px;
+    height: 300px;
+}
+.title-content{
+    font-family: var(--title-source);
+    padding-top: 7%;
+    padding-left: 5%;
 }
