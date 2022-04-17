@@ -19,6 +19,7 @@
     }
     .company-information{
         flex-direction: column;
+        justify-content: center;
         padding: 20px 0;
     }
     .img-company-information{
