@@ -238,7 +238,7 @@ h5{
     width: 240px;
     height: 150px;
     border-radius: 10px;
-    box-shadow: 1px 1px 12px black;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.544);
 }
 .circe{
     background-color: gold;
@@ -281,7 +281,10 @@ h5{
     display: flex;
     justify-content: space-evenly;
 
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.55);
+    border-radius: 10px;
     max-width: 1000px;
+    padding: 10px 0;
     margin: auto;
     margin-top: 10%;
     margin-bottom: 5%;
