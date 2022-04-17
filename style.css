@@ -25,6 +25,21 @@
     .img-company-information{
         margin: 20px 0;
     }
+    .ServiceProvisionContainer{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ServiceProvisionContent{
+        margin-bottom: 4%;
+    }
+    .wirelessSecurityContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .wirelessSecurityContent{
+        max-width: 90%;
+        margin-bottom: 5%;
+    }
 }
 
 :root {
@@ -84,8 +99,8 @@ header{
 
 .paragraph{
     font-family: sans-serif;
-    font-size: 0.9em;
-    text-indent: 15px;
+    font-size: 0.8em;
+    text-indent: 20px;
     text-align: justify;
     padding: 0 0 30px 0;
     max-width: 80%;
@@ -94,22 +109,22 @@ header{
 
 .link-sean-more{
     font-family: sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     background-color: gold;
     color: black;
-    border: 2px solid black;
+    border: 1px solid gold;
     border-radius: 20px;
     padding: 5px 10px;
     margin:0 1%;
 }
 .link-contact-us{
     font-family: sans-serif;
-    font-size: 0.9em;
+    font-size: 0.8em;
     text-decoration: none;
     background-color: transparent;
     color: #000;
-    border: 2px solid #000;
+    border: 1px solid #000;
     border-radius: 20px;
     padding: 5px 10px;
 }
@@ -124,25 +139,20 @@ main{
 }
 
 main > h1{
-    font-family: var(--title-source);
+    font-family: sans-serif;
     font-size: 1.5em;
     text-align: center;
-    margin: 5% 0 0 0;
+    margin: 8% 0 5% 0 ;
 }
 
-main > hr{
-    width: 300px;
-    margin: auto;
-    margin-bottom: 3%;
-}
 
 .main-service-container{
     padding: 2%;
     max-width: 1000px;
     margin: auto;
-    margin-bottom: 5%;
+    margin-bottom: 7%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 .main-service-content{
     display: flex;
@@ -169,11 +179,10 @@ h4{
 }
 .main-services-link{
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 0.8em;
     color: black;
     background-color: gold;
     padding:10px 30px;
-    border: 2px solid black;
     border-radius:20px ;
     text-decoration: none;
 }
@@ -184,7 +193,7 @@ h4{
     justify-content: center;
     background-color: gold;
     border-radius: 10px;
-    margin: 5% 0;
+    margin: 10% 0;
 }
 h5{
     font-family: sans-serif;
@@ -193,12 +202,119 @@ h5{
 }
 .img-company-information{
     max-width: 15%;
+    padding-right: 5%;
 }
 .company-information > section{
     background-color: black;
     color: white;
+    font-size: 0.8em;
     padding: 20px 10px;
     border-radius: 10px;
     font-family: sans-serif;
-    margin-left: 8%;
+    
+}
+.titleServiceProvision{
+    font-family: sans-serif;
+    margin-bottom: 4%;
+}
+
+.ServiceProvisionContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    margin: 3% 0;
+}
+.ServiceProvisionContent{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 5%;
+    width: 240px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 12px black;
+}
+.circe{
+    background-color: gold;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    padding: 5px;
+
+}
+.ServiceProvisionText{
+    font-family: sans-serif;
+    margin-left: 5px;
+}
+.ServiceProvisionText > h3{
+    padding-bottom: 5px;
+}
+.ServiceProvisionText > p{
+    font-size: 00.8em;
+}
+.width{
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.greaterWidth{
+    max-width: 97%;
+    margin: auto;
+}
+.LinkServiceProvision{
+    font-family: sans-serif;
+    font-size: 0.8em;
+    color: black;
+    background-color: gold;
+    padding: 10px 20px;
+    margin-bottom: 10%;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.wirelessSecurityContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+.wirelessSecurityContent{
+    max-width: 40%;
+    padding-left: 30px;
+    padding:  3%;
+    
+}
+
+.wirelessSecurityContent > h2{
+    font-family: sans-serif;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.wirelessSecurityContent > p{
+    text-align: justify;
+    text-indent: 20px;
+    font-family: sans-serif;
+    font-size: 00.8em;
+    margin-bottom: 20%;
+}
+.wirelessSecurityContent > a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px ;
+    border-radius: 20px;
+    font-family: sans-serif;
+    font-size: 00.8em;
+}
+
+.wirelessSecurityContentImg{
+    max-width: 60%;
+}
+.imageAlarme{
+    max-width: 90%;
+    border-radius: 10px;
 }
