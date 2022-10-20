@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'CreatoDisplay';
-    src: url('fonte/creato_display/CreatoDisplay-Bold.otf') format('opentype');
+    font-family: 'KosugiMaru';
+    src: url('fonte/KosugiMaru-Regular.ttf') format('truetype');
 }
 
 @media (max-width:800px){
