@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Sriracha&display=swap');
+
 @font-face {
     font-family: 'ModernSans';
     src: url('fonte/modern_sans/ModernSans-Light.otf') format('opentype');
@@ -13,7 +15,115 @@
 @media (max-width:800px){
     
     }
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    :root{
+
+        --header-color-text:#0BB97B;
+        --solution-block-color:#2F6B81;
+    }
+
+    .top-navigation{
+        display: flex;
+        justify-content: space-around;
+        padding: 1%;
+    }
+    .contact{
+        font-family: 'Inter';
+        font-weight: bold;
+    }
+    .list-navigation{
+        list-style-type: none;
+    }
+    .link-item-list-navigation{
+        font-family: 'Inter';
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
     
     header{
-        background-image: url('imagens/');
+        background-image: url('imagens/camera\ de\ segurança.jpg');
+        background-size: cover;
+        text-align: center;
+        padding: 2% 2%;
+        
+    }
+    .blur-header{
+        background-color: rgba(0, 0, 0, 0.69);
+        border-radius: 5px;
+        padding: 20% 0;
+    }
+    .blur-header > h1{
+        font-family: 'KosugiMaru';
+        font-size: 3em;
+        font-weight: lighter;
+        color: white;
+    }
+    .blur-header > span{
+        font-family: 'KosugiMaru';
+        font-size: 3em;
+        font-weight: bold;
+        color: #0BB97B;
+    }
+    .blur-header > p{
+        font-family: 'KosugiMaru';
+        color: white;
+        margin: 3% 0 0 0;
+    }
+    main{
+        background-color: white;
+        text-align: center;
+        padding-top: 10%;
+    }
+    .title-solution-block{
+        font-family: 'Inter';
+        font-size: 2.5em;
+    }
+    .solution-block{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        margin-top: 5%;
+    }
+    .solution-block-item{
+        font-family: 'Inter';
+        font-size: 0.7em;
+        
+        min-width: 150px;
+        max-width: 300px;
+        min-height: 150px;
+        max-height: 300px;
+        margin: 2%;
+        padding: 2% 0.1% 0 0.1%;
+        text-align: center;
+        border-radius: 10px;
+        
+    }
+    .solution-block-item h2:hover{
+        background-color: var(--solution-block-color);
+        color: white;
+    }
+    .solution-block-item  h2{
+        margin-bottom:10% ;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid var(--solution-block-color);
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.534);
+    
+    }
+    
+    .solution-block-item  img{
+        border-radius: 5px;
+        min-width: 150px;
+        max-width: 300px;
+        min-height: 150px;
+        max-height: 300px;
+        
+        
     }
