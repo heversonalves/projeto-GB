@@ -24,9 +24,8 @@
     :root{
 
         --header-color-text:#0BB97B;
-        --solution-block-color:#2F6B81;
+        --monitoring-details-color:#2F6B81
     }
-
     .top-navigation{
         display: flex;
         justify-content: space-around;
@@ -59,23 +58,25 @@
         padding: 20% 0;
     }
     .blur-header > h1{
-        font-family: 'KosugiMaru';
+        font-family: 'Inter';
         font-size: 3em;
         font-weight: lighter;
         color: white;
     }
     .blur-header > span{
-        font-family: 'KosugiMaru';
+        font-family: 'Inter';
         font-size: 3em;
         font-weight: bold;
         color: #0BB97B;
     }
     .blur-header > p{
-        font-family: 'KosugiMaru';
+        font-family: 'Inter';
         color: white;
         margin: 3% 0 0 0;
     }
     main{
+        max-width: 70%;
+        margin: auto;
         background-color: white;
         text-align: center;
         padding-top: 10%;
@@ -110,7 +111,7 @@
         color: white;
     }
     .solution-block-item  h2{
-        margin-bottom:10% ;
+        margin-bottom:2% ;
         padding: 10px;
         border-radius: 5px;
         border: 1px solid var(--solution-block-color);
@@ -122,8 +123,10 @@
         border-radius: 5px;
         min-width: 150px;
         max-width: 300px;
-        min-height: 150px;
-        max-height: 300px;
-        
-        
+        height: 230px;   
+    }
+    .monitoring-details{
+        background-color: var(--monitoring-details-color);
+        display: flex;
+        flex-wrap: wrap;
     }
